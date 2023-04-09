@@ -1,0 +1,9 @@
+package Sample1;
+
+public class sam1 extends sam2{
+	public static void main(String[] args) {
+		System.out.println("s");
+		
+	}
+
+}

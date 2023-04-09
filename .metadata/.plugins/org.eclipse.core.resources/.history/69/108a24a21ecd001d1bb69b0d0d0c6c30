@@ -1,0 +1,42 @@
+package Niffy;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+public class Demo {
+	 @BeforeClass
+		public static void beforeClass() {
+			System.out.println("Befpre class");
+
+		}
+		@Before
+		public void before() {
+			System.out.println("Befpre");
+			
+		}
+		@Test
+		public void test() {
+			System.out.println("test");
+			
+		}
+		@After
+		public void after() {
+			System.out.println("after");
+			
+		}
+		@AfterClass
+		public static void afterClass() {
+			System.out.println("after class");
+			
+		}
+		
+
+	
+
+
+
+}

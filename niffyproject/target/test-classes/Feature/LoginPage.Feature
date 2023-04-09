@@ -1,0 +1,7 @@
+Feature: Validating facebook Page
+Scenario: Login page with invalid credential
+
+When User is on Login Page
+And User enters username and password
+And User click on Login Page
+Then User verify the error messages

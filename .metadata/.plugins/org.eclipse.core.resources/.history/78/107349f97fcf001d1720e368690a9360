@@ -1,0 +1,17 @@
+package Demo;
+
+public class Demo3 {
+	static int a=10;
+	public static void Demo(){
+		System.out.println("Static Methods");
+	}
+	static {
+		System.out.println("Static Block");
+		
+	}
+	public static void main(String[] args) {
+		System.out.println(a);
+		Demo();
+	}
+
+}

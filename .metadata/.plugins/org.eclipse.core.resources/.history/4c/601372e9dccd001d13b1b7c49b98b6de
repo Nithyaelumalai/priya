@@ -1,0 +1,33 @@
+package com.steps;
+
+import org.openqa.selenium.By;
+
+import com.github.dockerjava.api.model.Driver;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class StepsDefinition {
+	@When("User is on login Page")
+	public void user_is_on_login_page() {
+		driver.findElement(By.id("email")).sendKeys("Niffysoul");
+		driver.findElement(By.id("pass")).sendKeys("54321");
+	   
+	}
+
+	@When("User enters username and password")
+	public void user_enters_username_and_password() {
+	  
+	}
+
+	@When("User click on Login page")
+	public void user_click_on_login_page() {
+	
+	}
+
+	@Then("User verify the error message")
+	public void user_verify_the_error_message() {
+	    
+	}
+
+}

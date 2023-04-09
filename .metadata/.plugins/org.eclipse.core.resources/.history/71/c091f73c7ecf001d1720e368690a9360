@@ -1,0 +1,18 @@
+package Demo;
+
+public class Demo2  {
+	
+	
+	int c=50;
+	public static void main(String[] args) {
+		
+		int c=10;
+		System.out.println("Local variable -"+ c);
+		
+		
+		Demo2 a = new Demo2();
+		System.out.println(a.c);
+		
+	}
+
+}

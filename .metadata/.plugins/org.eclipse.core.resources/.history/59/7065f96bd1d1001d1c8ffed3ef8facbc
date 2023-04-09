@@ -1,0 +1,8 @@
+package Com.runner;
+
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(features=src\\test\\resources\\LoginPage.feature,glue=)
+public class TestRunner {
+
+}
